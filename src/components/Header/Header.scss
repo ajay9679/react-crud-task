@@ -1,0 +1,17 @@
+.header{
+	font-size: 1.4rem;
+	height: 5rem;
+	background-image: linear-gradient(to right bottom, #4B5563, #6B7280);
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.heading2{
+		margin-left: 3rem;
+	}
+
+	.button{
+		margin-right: 3rem;
+	}
+}

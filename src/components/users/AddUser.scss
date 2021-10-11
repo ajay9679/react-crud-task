@@ -1,0 +1,62 @@
+.add_user{
+	height: 100vh;
+	position: relative;
+
+	.form_container{
+		border-radius: .5rem;
+		background-image: linear-gradient(to right bottom, #10B981, #065F46);
+		margin: 0 auto;
+		margin-top: 5rem;
+		width: 30%;
+		height: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.heading-2{
+		margin: 4rem;
+	}
+
+	.form{
+		margin-left: 2rem;
+		margin-right: 2rem;
+
+		&__group{
+			height: 2rem;
+
+			&:not(:last-child){
+				margin-bottom: 4rem;
+			}
+		}
+
+		&__input{
+			font-size: 1.5rem;
+			font-family: inherit;
+			color: inherit;
+			padding: .5rem 1rem;
+			border-radius: 2px;
+			background-color: rgba(#fff, .5);
+			border: none;
+			border-bottom: 3px solid transparent;
+			width: 100%;
+			display: block;
+			transition: all .2s;
+			
+			&:focus{
+				outline: none;
+				box-shadow: 0 1rem 2rem rgba(#000, .1);
+				border-bottom: 3px solid #777;
+			}
+
+			&:focus:invalid{
+				border-bottom: 3px solid #222;
+			}
+
+			&::-webkit-input-placeholder{
+				font-family: cursive;
+				color: #555;
+			}
+		}
+	}
+}

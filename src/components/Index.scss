@@ -1,0 +1,47 @@
+.user_table{
+	border: 1px solid transparent;
+	/*width: 80vw;*/
+	margin: 0 auto;
+	height: auto;
+
+	.heading-2{
+		margin-top: 2rem;
+		margin-left: 2rem;
+	}
+
+	.table{
+		font-size: 1.4rem;
+		margin: 2rem;
+		width: 78vw;
+		height: auto;
+
+		&__head{
+			color: #fff;
+			background-color: #555;
+			height: 3.5rem;
+		}
+
+		&__body{
+			text-align: center;
+			height: 80vh;
+
+			.img_svg{
+				width: 2rem;
+				height: 2rem;
+				margin-right: 1.5rem;
+
+				&--eye{
+
+				}
+			}
+		}
+	}
+}
+
+.btn{
+	height: 3rem;
+	width: 10rem;
+	border-radius: .4rem;
+	cursor: pointer;
+	font-weight: bold;
+}
